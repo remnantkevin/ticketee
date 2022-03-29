@@ -1,0 +1,23 @@
+require:
+  - rubocop-rails
+
+AllCops:
+  NewCops: enable
+
+Metrics/MethodLength:
+  CountAsOne: ["array", "hash", "heredoc"]
+  Max: 50
+Metrics/ModuleLength:
+  CountAsOne: ["array", "hash", "heredoc"]
+  Max: 200
+Metrics/ClassLength:
+  CountAsOne: ["array", "hash", "heredoc"]
+  Max: 200
+
+# Style/FrozenStringLiteralComment:
+#   AutoCorrect: true
+Style/Documentation:
+  Enabled: false
+
+Rails/I18nLocaleTexts:
+  Enabled: false
