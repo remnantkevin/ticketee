@@ -14,8 +14,8 @@ Metrics/ClassLength:
   CountAsOne: ["array", "hash", "heredoc"]
   Max: 200
 
-# Style/FrozenStringLiteralComment:
-#   AutoCorrect: true
+Style/FrozenStringLiteralComment:
+  Enabled: false
 Style/Documentation:
   Enabled: false
 
